@@ -6,16 +6,6 @@ import at.fhv.objects.TreePrinter.printTree
 
 fun main() {
     var root: TreeNode? = null
-//    println("Select an option:")
-//    println("1: Binary Tree")
-//    println("2: AVL Tree")
-//    println("q: Quit")
-//
-//    val tree = when (readlnOrNull() ?: "") {
-//        "1" -> 1
-//        "2" -> 2
-//        else -> return
-//    }
 
 
     println("Enter a command Followed by a number (e.g. `in20`:")
@@ -54,7 +44,7 @@ fun main() {
                     println("Invalid input. Please enter a number.")
                 }
             }
-            root?.printTree();
+            root?.printTree()
         }
     }
 }
