@@ -8,18 +8,11 @@ fun main() {
     var root: TreeNode? = null
 
 
-    println("Enter a command Followed by a number (e.g. `in20`:")
-    println("in: Insert")
-    println("rm: Remove")
-    println("se: Search")
-    println("pr: Predecessor")
-    println("su: Successor")
-    println("------------------")
-    println("Full Commands without numbers at the end")
+    println("Enter a number to insert it into the heap or a command.")
+    println("Available commands:")
     println("p: Print tree")
     println("pl: Print tree as List")
-    println("min: Min")
-    println("max: Max")
+    println("rmMin: Remove min")
     println("c: Clear")
     println("q: Quit")
 
